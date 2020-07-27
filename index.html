@@ -6,179 +6,85 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#home"><img src="images/logo.svg" alt=""></a>
-        <button type="button" name="button" data-aos="fade-left" data-aos-duration="1500">Try It Free</button>
+      <nav class="navbar fixed-top" style="background-color: transparent;">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <img src="images/logo.svg" alt="">
+          </a>
+        <button class="btn btn-light btn-small" type="button" name="button" data-aos="fade-left" data-aos-duration="1500">Try It Free</button>
+        </div>
       </nav>
-      <nav>
-        <ahref="#home"><img src="images/logo.svg" alt=""></a>
-        <button type="button" name="button" data-aos="fade-left" data-aos-duration="1500">Try It Free</button>
-      </nav>
-      <div>
-        <div>
-          <h1 data-aos="fade-up" data-aos-duration="1500">Build the Community
-          <br>
-          Your Fans Will Love</h1>
-          <p data-aos="fade-up" data-aos-duration="1500">Huddle reimages the way we build communities. You have a voice, but so does your audience.Create connections with your users as you engage in genuine discussion</p>
-          <button type="button" name="button" data-aos="fade-right" data-aos-duration="1500">Get Started for Free</button>
-        </div>
-        <div>
-          <img src="images/illustration-mockups.svg" alt="web mockups illustration" data-aos="fade-up" data-aos-duration="1500">
-        </div>
+      <div class="container-fluid">
+        <div class="container" id="header-jumbotron">
+          <div class="col-sm-12 my-5 text-center" id="header-tagline">
+            <h1 data-aos="fade-up" data-aos-duration="1500">Build the Community
+            <br>
+            Your Fans Will Love</h1>
+            <p data-aos="fade-up" data-aos-duration="1500">Huddle reimages the way we build communities. You have a voice, but so does your audience.Create connections with your users as you engage in genuine discussion</p>
+            <button class="btn btn-primary btn-large my-3" type="button" name="button" data-aos="fade-right" data-aos-duration="1500">Get Started for Free</button>
+          </div>
+          <div class="col-sm-12 mb-5" id="header-img">
+            <img class="img-fluid" src="images/illustration-mockups.svg" alt="web mockups illustration" data-aos="fade-up" data-aos-duration="1500">
+          </div>
        </div>
-      <div id="headerMobile">
-        <div>
-          <h1 data-aos="fade-up" data-aos-duration="1500">Build the Community
-          <br>
-          Your Fans Will Love</h1>
-          <p data-aos="fade-up" data-aos-duration="1500">Huddle reimages the way we build communities. You have a voice, but so does your audience.Create connections with your users as you engage in genuine discussion</p>
-          <button type="button" name="button" data-aos="fade-right" data-aos-duration="1500">Get Started for Free</button>
-        </div>
-        <div>
-          <img src="images/illustration-mockups.svg" alt="web mockups illustration" data-aos="fade-up" data-aos-duration="1500">
-        </div>
-       </div>
-
     </header>
     <main>
-      <div data-aos="fade-up" data-aos-duration="1500">
-        <div>
-          <h2>Grow Together</h2>
-          <p>Generate meaningful discussions with your audience and build strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+      <div class="container-fluid" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container">
+          <div class="card my-4 p-5">
+            <img class="card-img-top" src="images/illustration-grow-together.svg" alt="grow together illustration">
+            <dic class="card-body text-center mt-5">
+              <h2 class="card-title">Grow Together</h2>
+              <p class="card-text text-muted">Generate meaningful discussions with your audience and build strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+            </dic>
+          </div>
+          <div class="card my-4 p-5">
+            <img class="card-img-top" src="images/illustration-flowing-conversation.svg" alt="flowing conversations illustration">
+            <dic class="card-body text-center mt-5">
+              <h2 class="card-title">Flowing conversations</h2>
+              <p class="card-text text-muted">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+            </dic>
+          </div>
+          <div class="card my-4 p-5">
+            <img class="card-img-top" src="images/illustration-your-users.svg" alt="your users illustration">
+            <dic class="card-body text-center mt-5">
+              <h2 class="card-title">Your Users</h2>
+              <p class="card-text text-muted">Generate meaningful discussions with your audience and build strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+            </dic>
+          </div>
+          <div class="card my-4 text-center p-5" data-aos="fade-up" data-aos-duration="1500" id="card-cta">
+            <h3>Ready to build your community?</h3>
+            <button class="btn btn-primary btn-large" type="button" name="button">Get started for free</button>
+          </div>
         </div>
-        <div>
-          <img src="images/illustration-grow-together.svg" alt="">
-        </div>
-      </div>
-      <div data-aos="fade-up" data-aos-duration="1500">
-        <div>
-          <h2>Grow Together</h2>
-          <p>Generate meaningful discussions with your audience and build strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
-        </div>
-        <div>
-          <img src="images/illustration-grow-together.svg" alt="">
-        </div>
-      </div>
-      <div data-aos="fade-up" data-aos-duration="1500">
-        <div>
-          <img src="images/illustration-flowing-conversation.svg" alt="">
-        </div>
-        <div>
-          <h2>Flowing conversations</h2>
-          <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
-        </div>
-      </div>
-      <div data-aos="fade-up" data-aos-duration="1500">
-        <div>
-          <img class="card-img" src="images/illustration-flowing-conversation.svg" alt="">
-        </div>
-        <div>
-          <h2>Flowing conversations</h2>
-          <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
-        </div>
-      </div>
-      <div data-aos="fade-up" data-aos-duration="1500">
-        <div>
-          <h2>Your Users</h2>
-          <p>Generate meaningful discussions with your audience and build strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
-        </div>
-        <div>
-          <img src="images/illustration-your-users.svg" alt="">
-        </div>
-      </div>
-      <div data-aos="fade-up" data-aos-duration="1500">
-        <div>
-          <h2>Your Users</h2>
-          <p>Generate meaningful discussions with your audience and build strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
-        </div>
-        <div>
-          <img src="images/illustration-your-users.svg" alt="">
-        </div>
-      </div>
-      <div data-aos="fade-up" data-aos-duration="1500">
-        <h3>Ready to build your community?</h3>
-        <button type="button" name="button">Get started for free</button>
       </div>
     </main>
-    <footer>
-      <div>
-          <img src="images/logo-white.png" alt="Huddle logo">
-      </div>
-      <div>
-        <div data-aos="fade-up" data-aos-duration="1500">
-            <div>
-              <img src="images/icon-location.svg" alt="">
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+              <img class="py-4" src="images/logo-white.png" alt="Huddle logo">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
-            </div>
-            <div>
-              <img src="images/icon-phone.svg" alt="">
               <p>+1-534-123-456</p>
-            </div>
-            <div>
-              <img src="images/icon-email.svg" alt="">
               <p>example@huddle.com</p>
-            </div>
-
+              <div class="d-flex flex-column">
+                <a class="py-2" href="#home">About Us</a>
+                <a class="py-2" href="#home">What We Do</a>
+                <a class="py-2" href="#home">FAQ</a>
+                <a class="py-2" href="#home">Career</a>
+                <a class="py-2" href="#home">Blog</a>
+                <a class="py-2" href="#home">Contact Us</a>
+                <a class="py-2" class="fa fa-facebook" href="https://facebook.com" target="_blank"></a>
+                <a class="py-2" class="fa fa-twitter" href="https://twitter.com" target="_blank"></a>
+                <a class="py-2" class="fa fa-instagram" href="https://instagram.com" target="_blank"></a>
+              </div>
+          </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1500">
-            <a href="#home">About Us</a>
-            <a href="#home">What We Do</a>
-            <a href="#home">FAQ</a>
-          </div>
-        <div data-aos="fade-up" data-aos-duration="1500">
-            <a href="#home">Career</a>
-            <a href="#home">Blog</a>
-            <a href="#home">Contact Us</a>
-          </div>
-        <div  data-aos="fade-up" data-aos-duration="1500">
-            <a class="fa fa-facebook" href="https://facebook.com" target="_blank"></a>
-            <a class="fa fa-twitter" href="https://twitter.com" target="_blank"></a>
-            <a class="fa fa-instagram" href="https://instagram.com" target="_blank"></a>
-          </div>
       </div>
-
-    </footer>
-    <footer id="footerMobile">
-      <div>
-          <img src="images/logo-white.png" alt="Huddle logo">
-      </div>
-      <div>
-        <div data-aos="fade-up" data-aos-duration="1500">
-            <div data-aos="fade-up" data-aos-duration="1500">
-              <img src="images/icon-location.svg" alt="">
-              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
-            </div>
-            <div>
-              <img src="images/icon-phone.svg" alt="">
-              <p>+1-534-123-456</p>
-            </div>
-            <div>
-              <img src="images/icon-email.svg" alt="">
-              <p>example@huddle.com</p>
-            </div>
-
-        </div>
-        <div data-aos="fade-up" data-aos-duration="1500">
-            <a href="#home">About Us</a>
-            <a href="#home">What We Do</a>
-            <a href="#home">FAQ</a>
-          </div>
-        <div data-aos="fade-up" data-aos-duration="1500">
-            <a href="#home">Career</a>
-            <a href="#home">Blog</a>
-            <a href="#home">Contact Us</a>
-          </div>
-        <div data-aos="fade-up" data-aos-duration="1500">
-            <a class="fa fa-facebook" href="https://facebook.com" target="_blank"></a>
-            <a class="fa fa-twitter" href="https://twitter.com" target="_blank"></a>
-            <a class="fa fa-instagram" href="https://instagram.com" target="_blank"></a>
-          </div>
-      </div>
-
     </footer>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

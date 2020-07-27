@@ -1,0 +1,42 @@
+// CUSTOMISED BOOTSTRAP VARIABLES
+
+
+// IMPORT BOOTSTRAP
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// CUSTOM STYLES
+
+//header
+.navbar {
+  padding-top: 4%;
+}
+
+#header-jumbotron {
+  padding-top: 18%;
+}
+
+//cards
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#card-cta {
+  position: relative;
+  bottom: -12vh;
+}
+
+//footer
+
+footer {
+  background-color: blue;
+  padding-top: 20vh;
+}
