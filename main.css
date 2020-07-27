@@ -9933,6 +9933,11 @@ h3 {
   bottom: -12vh;
 }
 
+#card-cta-mobile {
+  position: relative;
+  bottom: -12vh;
+}
+
 footer {
   background-color: blue;
   padding-top: 20vh;
