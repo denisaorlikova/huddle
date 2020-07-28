@@ -2,7 +2,7 @@
 
 Design - Frontend Mentor (coding challenge)
 
-![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./images/huddle.png)
 
 I didn't purchase the original Sketch file, so this is rather free interpretation of the original design :))
 
