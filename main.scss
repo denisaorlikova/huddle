@@ -1,5 +1,26 @@
 // CUSTOMISED BOOTSTRAP VARIABLES
 
+$primary: hsl(322, 100%, 66%);
+$dark: hsl(192, 100%, 9%);
+
+$font-family-base: 'Open Sans', sans-serif;
+$body-color: $dark;
+
+$box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+$headings-font-family: 'Poppins', sans-serif;
+$headings-font-weight: 600;
+$headings-color: $dark;
+
+$btn-font-family: $font-family-base;
+$btn-padding-y: 0.7rem;
+$btn-padding-x: 2.8rem;
+$btn-padding-y-lg: 1.4rem;
+$btn-padding-x-lg: 3.8rem;
+$btn-border-radius: 40px;
+
+$link-color: #fff;
+$link-hover-color: $primary;
 
 // IMPORT BOOTSTRAP
 
@@ -7,11 +28,14 @@
 
 // CUSTOM STYLES
 
+.btn {
+  box-shadow: $box-shadow;
+}
+
 //header
 .navbar {
   padding-top: 4%;
 }
-
 
 #header-jumbotron {
   padding-top: 18%;
@@ -22,7 +46,7 @@
 
 .card {
   border: none;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: $box-shadow;
   transition: 0.3s;
   border-radius: 15px;
 }
@@ -31,12 +55,7 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-#card-cta {
-  position: relative;
-  bottom: -12vh;
-}
-
-#card-cta-mobile {
+#card-cta, #card-cta-mobile {
   position: relative;
   bottom: -12vh;
 }
@@ -44,6 +63,5 @@
 //footer
 
 footer {
-  background-color: blue;
   padding-top: 20vh;
 }
