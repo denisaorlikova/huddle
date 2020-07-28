@@ -1,16 +1,8 @@
 ## Huddle Landing Page
 
-Design - Frontend Mentor (coding challenge)
-
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./images/huddle.png)
 
-I didn't purchase the original Sketch file, so this is rather free interpretation of the original design :))
-
-This work is still in progress - next to do's are:
-
-- adjust typography, colors, buttons and backgrounds
-- adjust the footer layout
-
+This is a self-started project, inspired by [this](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100) Frontend Mentor challenge. - I used the free design in .jpg as a guide and the available logo and image assets.
 
 Technology used:
 
