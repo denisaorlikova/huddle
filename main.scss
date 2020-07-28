@@ -2,6 +2,7 @@
 
 $primary: hsl(322, 100%, 66%);
 $dark: hsl(192, 100%, 9%);
+$light: #fff;
 
 $font-family-base: 'Open Sans', sans-serif;
 $body-color: $dark;
@@ -28,6 +29,10 @@ $link-hover-color: $primary;
 
 // CUSTOM STYLES
 
+body {
+  background-color: hsl(192, 70%, 80%);
+}
+
 .btn {
   box-shadow: $box-shadow;
 }
@@ -38,8 +43,13 @@ $link-hover-color: $primary;
 }
 
 #header-jumbotron {
-  padding-top: 18%;
+  padding-top: 14%;
   padding-bottom: 24%;
+}
+
+header {
+  background: url(images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
 }
 
 //cards
